@@ -1,0 +1,1822 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apex Auto Expo | Houston's Premier Pre-Owned & In-House Financing</title>
+  <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #07090e;
+      --bg-surface: #0e131f;
+      --bg-card: #141b2d;
+      --border-color: rgba(255, 255, 255, 0.08);
+      --accent-red: #ff334b;
+      --accent-crimson: #d90429;
+      --accent-glow: rgba(255, 51, 75, 0.25);
+      --text-muted: #94a3b8;
+    }
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: var(--bg-dark);
+      color: #f8fafc;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+    .font-heading {
+      font-family: 'Space Grotesk', sans-serif;
+    }
+    .glass-card {
+      background: rgba(17, 24, 39, 0.7);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .glass-card:hover {
+      border-color: rgba(255, 51, 75, 0.35);
+      box-shadow: 0 10px 30px -10px rgba(255, 51, 75, 0.15);
+    }
+    .glass-nav {
+      background: rgba(7, 9, 14, 0.85);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .badge-glow {
+      box-shadow: 0 0 15px var(--accent-glow);
+    }
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-track {
+      background: #0b0f19;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: #334155;
+      border-radius: 4px;
+    }
+    .modal-backdrop {
+      background: rgba(3, 7, 18, 0.82);
+      backdrop-filter: blur(10px);
+    }
+    /* Slider Custom Styling */
+    input[type=range] {
+      accent-color: #ff334b;
+    }
+  </style>
+</head>
+<body class="selection:bg-red-500 selection:text-white">
+
+  <!-- ================= TOP TICKER / UTILITY BAR ================= -->
+  <aside aria-label="Announcement & Utility bar" class="bg-gradient-to-r from-neutral-950 via-[#121829] to-neutral-950 text-xs text-slate-400 border-b border-white/5 py-2 px-4 sm:px-8">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-3">
+      <div class="flex items-center space-x-4">
+        <span class="inline-flex items-center gap-1.5 text-emerald-400 font-medium">
+          <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span> Showroom Open Today: 9:00 AM – 7:00 PM CST
+        </span>
+        <span class="hidden md:inline text-slate-600">|</span>
+        <span class="hidden md:flex items-center gap-1">
+          <svg class="w-3.5 h-3.5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+          9820 Bissonnet St, Houston, TX 77036
+        </span>
+      </div>
+      <div class="flex items-center gap-4 text-slate-300">
+        <span class="text-amber-400 font-semibold flex items-center gap-1">
+          ★ 4.9 <span class="text-slate-400 font-normal">(404+ Verified Google Reviews)</span>
+        </span>
+        <a href="tel:+17137710244" class="text-white hover:text-red-400 font-bold transition flex items-center gap-1">
+          <svg class="w-3.5 h-3.5 text-red-500" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 4V3z"></path></svg>
+          (713) 771-0244
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ================= MAIN HEADER & NAVIGATION ================= -->
+  <header class="sticky top-0 z-40 glass-nav transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8 py-3.5 flex items-center justify-between gap-4">
+      <!-- Brand Logo -->
+      <a href="#home" class="flex items-center gap-3 group">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-red-600 to-rose-400 flex items-center justify-center text-white font-extrabold text-xl font-heading shadow-lg shadow-red-600/30 group-hover:scale-105 transition-transform">
+          A
+        </div>
+        <div>
+          <div class="font-heading font-black text-xl tracking-tight leading-none text-white flex items-center gap-1">
+            AUTO EXPO <span class="text-red-500">HOUSTON</span>
+          </div>
+          <div class="text-[10px] tracking-widest text-slate-400 uppercase font-semibold">Premium Used Cars &amp; In-House Finance</div>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="hidden lg:flex items-center gap-6 text-sm font-medium text-slate-300">
+        <div class="relative group py-2">
+          <button class="hover:text-white flex items-center gap-1 transition">
+            Inventory
+            <svg class="w-3.5 h-3.5 text-slate-400 group-hover:rotate-180 transition duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+          </button>
+          <div class="absolute top-full left-0 w-52 py-2 bg-neutral-900/95 border border-white/10 rounded-xl shadow-2xl backdrop-blur-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 flex flex-col z-50">
+            <a href="#inventory" onclick="filterCategory('all')" class="px-4 py-2 hover:bg-white/5 text-slate-300 hover:text-red-400 transition flex items-center justify-between">All Vehicles <span class="text-xs text-slate-500">65+ Cars</span></a>
+            <a href="#inventory" onclick="filterCategory('suv')" class="px-4 py-2 hover:bg-white/5 text-slate-300 hover:text-red-400 transition flex items-center justify-between">SUVs &amp; Crossovers <span class="text-xs text-slate-500">28</span></a>
+            <a href="#inventory" onclick="filterCategory('truck')" class="px-4 py-2 hover:bg-white/5 text-slate-300 hover:text-red-400 transition flex items-center justify-between">Trucks &amp; 4x4 <span class="text-xs text-slate-500">14</span></a>
+            <a href="#inventory" onclick="filterCategory('sedan')" class="px-4 py-2 hover:bg-white/5 text-slate-300 hover:text-red-400 transition flex items-center justify-between">Sedans &amp; Coupes <span class="text-xs text-slate-500">18</span></a>
+            <a href="#inventory" onclick="filterCategory('luxury')" class="px-4 py-2 hover:bg-white/5 text-slate-300 hover:text-red-400 transition flex items-center justify-between">Luxury &amp; Sports <span class="text-xs text-slate-500">9</span></a>
+          </div>
+        </div>
+
+        <button onclick="openModal('financeModal')" class="hover:text-white transition">In-House Financing</button>
+        <button onclick="openModal('tradeModal')" class="hover:text-white transition">Value Your Trade</button>
+        <a href="#calculator" class="hover:text-white transition">Loan Calculator</a>
+        <a href="#warranty" class="hover:text-white transition">Warranty</a>
+        <a href="#reviews" class="hover:text-white transition">Reviews</a>
+        <a href="#contact" class="hover:text-white transition">Showroom</a>
+      </nav>
+
+      <!-- Action Buttons -->
+      <div class="flex items-center gap-3">
+        <button onclick="openModal('testDriveModal')" class="hidden sm:inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-semibold bg-white/5 hover:bg-white/10 text-white border border-white/10 transition">
+          <svg class="w-4 h-4 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+          Schedule Test Drive
+        </button>
+
+        <button onclick="openModal('financeModal')" class="relative inline-flex items-center justify-center p-0.5 overflow-hidden rounded-xl group font-semibold text-xs text-white">
+          <span class="absolute inset-0 w-full h-full bg-gradient-to-br from-red-500 via-rose-600 to-amber-500 group-hover:from-red-600 group-hover:to-amber-600 transition-all duration-300"></span>
+          <span class="relative px-4 py-2 transition-all ease-out bg-neutral-900 rounded-[10px] group-hover:bg-opacity-0">
+            Get Pre-Approved ⚡
+          </span>
+        </button>
+
+        <!-- Mobile Menu Trigger -->
+        <button onclick="toggleMobileMenu()" class="lg:hidden p-2 rounded-lg bg-white/5 text-slate-300 hover:text-white">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div id="mobileMenu" class="hidden lg:hidden px-6 py-4 bg-neutral-900/95 border-b border-white/10 space-y-3 text-sm">
+      <a href="#inventory" onclick="toggleMobileMenu()" class="block py-2 text-slate-300 hover:text-red-400">Shop All Inventory</a>
+      <button onclick="openModal('financeModal'); toggleMobileMenu()" class="block w-full text-left py-2 text-slate-300 hover:text-red-400">In-House Financing Pre-Approval</button>
+      <button onclick="openModal('tradeModal'); toggleMobileMenu()" class="block w-full text-left py-2 text-slate-300 hover:text-red-400">Value Your Trade-In</button>
+      <a href="#calculator" onclick="toggleMobileMenu()" class="block py-2 text-slate-300 hover:text-red-400">Payment Calculator</a>
+      <button onclick="openModal('testDriveModal'); toggleMobileMenu()" class="block w-full text-left py-2 text-slate-300 hover:text-red-400">Schedule Test Drive</button>
+      <a href="#reviews" onclick="toggleMobileMenu()" class="block py-2 text-slate-300 hover:text-red-400">Customer Reviews</a>
+      <a href="#contact" onclick="toggleMobileMenu()" class="block py-2 text-slate-300 hover:text-red-400">Directions &amp; Contact</a>
+    </div>
+  </header>
+
+  <!-- ================= HERO SECTION ================= -->
+  <section id="home" class="relative pt-12 pb-20 md:pt-20 md:pb-28 overflow-hidden">
+    <!-- Ambient glowing backgrounds -->
+    <div class="absolute -top-32 left-1/2 -translate-x-1/2 w-[800px] h-[450px] bg-red-600/15 blur-[140px] pointer-events-none rounded-full"></div>
+    <div class="absolute top-1/2 -right-40 w-96 h-96 bg-blue-600/10 blur-[130px] pointer-events-none rounded-full"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-8 relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <!-- Hero Text -->
+        <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/5 border border-white/10 text-xs font-semibold text-slate-300">
+            <span class="w-2 h-2 rounded-full bg-red-500"></span>
+            Houston’s Trusted Pre-Owned Dealership Since 2015
+          </div>
+
+          <h1 class="font-heading font-black text-4xl sm:text-5xl lg:text-6xl tracking-tight leading-[1.08] text-white">
+            Drive Away Today.<br>
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-rose-400 to-amber-400">
+              Guaranteed In-House
+            </span> Financing.
+          </h1>
+
+          <p class="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed">
+            Over 65+ hand-selected, 150-point inspected cars, trucks, and SUVs in Houston. Good credit, bad credit, or no credit — 100% approval rate with flexible monthly terms and clean CARFAX reports.
+          </p>
+
+          <!-- CTAs -->
+          <div class="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-2">
+            <a href="#inventory" class="px-7 py-3.5 rounded-xl font-bold text-sm bg-gradient-to-r from-red-600 to-rose-600 hover:from-red-500 hover:to-rose-500 text-white shadow-xl shadow-red-600/30 hover:scale-[1.02] active:scale-[0.98] transition">
+              Explore 65+ Vehicles
+            </a>
+            <button onclick="openModal('financeModal')" class="px-7 py-3.5 rounded-xl font-bold text-sm bg-neutral-900 hover:bg-neutral-800 text-white border border-white/15 hover:border-white/30 transition flex items-center gap-2">
+              <span>Instant Pre-Approval</span>
+              <svg class="w-4 h-4 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+            </button>
+          </div>
+
+          <!-- Value Badges -->
+          <div class="pt-6 border-t border-white/10 grid grid-cols-3 gap-4 max-w-lg mx-auto lg:mx-0">
+            <div>
+              <div class="font-heading font-bold text-xl sm:text-2xl text-white">100%</div>
+              <div class="text-xs text-slate-400">Approval Rate</div>
+            </div>
+            <div>
+              <div class="font-heading font-bold text-xl sm:text-2xl text-white">150+</div>
+              <div class="text-xs text-slate-400">Point Inspection</div>
+            </div>
+            <div>
+              <div class="font-heading font-bold text-xl sm:text-2xl text-white">404+</div>
+              <div class="text-xs text-slate-400">5-Star Reviews</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Featured Vehicle Showcase Card -->
+        <div class="lg:col-span-5">
+          <div class="relative glass-card rounded-2xl p-6 overflow-hidden border border-white/10 group">
+            <div class="flex items-center justify-between mb-4">
+              <span class="px-2.5 py-1 rounded-md text-[11px] font-bold uppercase tracking-wider bg-red-600/20 text-red-400 border border-red-500/30">
+                Exclusive Deal of the Week
+              </span>
+              <span class="text-xs text-emerald-400 font-medium flex items-center gap-1">
+                <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span> In Showroom
+              </span>
+            </div>
+
+            <!-- Vehicle Visual Canvas / Image -->
+            <div class="relative w-full h-56 rounded-xl overflow-hidden bg-gradient-to-b from-neutral-800 to-neutral-950 flex items-center justify-center border border-white/5">
+              <div class="absolute inset-0 bg-gradient-to-t from-neutral-950 via-transparent to-transparent z-10"></div>
+              <!-- Futuristic Car Visual representation -->
+              <svg class="w-72 h-44 text-slate-600 group-hover:scale-105 transition-transform duration-500" viewBox="0 0 400 200" fill="none">
+                <path d="M40 130 C 60 130, 80 90, 140 70 C 220 50, 300 65, 340 100 C 370 120, 380 140, 380 140 L 20 140 C 20 140, 30 130, 40 130 Z" fill="#1e293b"/>
+                <path d="M120 75 C 160 55, 260 55, 290 80 L 290 100 L 110 100 Z" fill="#38bdf8" fill-opacity="0.25"/>
+                <circle cx="90" cy="145" r="28" fill="#0f172a" stroke="#ef4444" stroke-width="4"/>
+                <circle cx="90" cy="145" r="14" fill="#334155"/>
+                <circle cx="310" cy="145" r="28" fill="#0f172a" stroke="#ef4444" stroke-width="4"/>
+                <circle cx="310" cy="145" r="14" fill="#334155"/>
+                <path d="M30 135 L 370 135" stroke="#ef4444" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+              <div class="absolute bottom-3 left-4 z-20">
+                <span class="text-xs text-slate-400 font-mono">VIN: 1GC4YREY2HF198...</span>
+              </div>
+              <div class="absolute bottom-3 right-4 z-20">
+                <span class="px-2 py-0.5 rounded text-[10px] font-semibold bg-white/20 backdrop-blur text-white">Clean CARFAX®</span>
+              </div>
+            </div>
+
+            <!-- Vehicle Info -->
+            <div class="mt-4">
+              <div class="flex items-start justify-between">
+                <div>
+                  <h3 class="font-heading font-bold text-xl text-white">2022 Chevrolet Silverado 1500 RST</h3>
+                  <p class="text-xs text-slate-400">Crew Cab 4WD · 42,100 mi · 5.3L V8 EcoTec3</p>
+                </div>
+                <div class="text-right">
+                  <div class="text-xs text-slate-400 line-through">$42,995</div>
+                  <div class="font-heading font-black text-2xl text-red-400">$38,495</div>
+                </div>
+              </div>
+
+              <!-- Quick Specs Chips -->
+              <div class="grid grid-cols-3 gap-2 mt-4 text-center">
+                <div class="p-2 rounded-lg bg-neutral-900/60 border border-white/5">
+                  <div class="text-[10px] text-slate-500 uppercase">Est. Payment</div>
+                  <div class="text-xs font-bold text-white">$449/mo*</div>
+                </div>
+                <div class="p-2 rounded-lg bg-neutral-900/60 border border-white/5">
+                  <div class="text-[10px] text-slate-500 uppercase">Fuel Econ</div>
+                  <div class="text-xs font-bold text-white">20 MPG Hwy</div>
+                </div>
+                <div class="p-2 rounded-lg bg-neutral-900/60 border border-white/5">
+                  <div class="text-[10px] text-slate-500 uppercase">Warranty</div>
+                  <div class="text-xs font-bold text-emerald-400">Included</div>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-2 gap-3 mt-4">
+                <button onclick="openModal('testDriveModal')" class="w-full py-2.5 rounded-xl font-bold text-xs bg-red-600 hover:bg-red-500 text-white transition text-center">
+                  Book Test Drive
+                </button>
+                <button onclick="quickViewCar(1)" class="w-full py-2.5 rounded-xl font-semibold text-xs bg-white/5 hover:bg-white/10 text-white border border-white/10 transition text-center">
+                  View Full Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= NATURAL LANGUAGE & AI SEARCH BAR ================= -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-8 -mt-6 relative z-20">
+    <div class="glass-card rounded-2xl p-4 sm:p-6 shadow-2xl border border-white/10 bg-neutral-950/90">
+      <div class="flex flex-col md:flex-row items-stretch gap-3">
+        <!-- Natural Search input -->
+        <div class="relative flex-1">
+          <svg class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+          <input 
+            type="text" 
+            id="searchInput" 
+            oninput="handleSearch()"
+            placeholder="Search anything... 'Black SUV', 'Apple CarPlay', 'V8 Truck', 'Under $25k', 'Leather Seats'..."
+            class="w-full pl-12 pr-4 py-3.5 bg-neutral-900 border border-white/10 rounded-xl text-sm text-white placeholder-slate-500 focus:outline-none focus:border-red-500 transition"
+          >
+        </div>
+
+        <!-- Filter Dropdown 1: Body Style -->
+        <select id="bodyFilter" onchange="filterCars()" class="bg-neutral-900 border border-white/10 rounded-xl px-4 py-3.5 text-sm text-slate-300 focus:outline-none focus:border-red-500 transition">
+          <option value="all">All Body Styles</option>
+          <option value="SUV">SUVs</option>
+          <option value="Truck">Trucks</option>
+          <option value="Sedan">Sedans</option>
+          <option value="Coupe">Coupes &amp; Sports</option>
+        </select>
+
+        <!-- Filter Dropdown 2: Max Price -->
+        <select id="priceFilter" onchange="filterCars()" class="bg-neutral-900 border border-white/10 rounded-xl px-4 py-3.5 text-sm text-slate-300 focus:outline-none focus:border-red-500 transition">
+          <option value="all">Any Price</option>
+          <option value="25000">Under $25,000</option>
+          <option value="35000">Under $35,000</option>
+          <option value="50000">Under $50,000</option>
+        </select>
+
+        <!-- Reset Button -->
+        <button onclick="resetFilters()" class="px-5 py-3.5 bg-neutral-800 hover:bg-neutral-700 text-white rounded-xl text-sm font-semibold transition flex items-center justify-center gap-1.5">
+          <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
+          Reset
+        </button>
+      </div>
+
+      <!-- Quick Search Prompts / Pills as seen in Auto Expo reference -->
+      <div class="flex items-center gap-2 mt-4 pt-3 border-t border-white/5 overflow-x-auto text-xs text-slate-400">
+        <span class="font-medium text-slate-300 flex items-center gap-1 shrink-0">
+          <svg class="w-3.5 h-3.5 text-red-400" fill="currentColor" viewBox="0 0 20 20"><path d="M11 3a1 1 0 10-2 0v1a1 1 0 102 0V3zM15.657 5.757a1 1 0 00-1.414-1.414l-.707.707a1 1 0 001.414 1.414l.707-.707zM18 10a1 1 0 01-1 1h-1a1 1 0 110-2h1a1 1 0 011 1zM5.05 6.464A1 1 0 106.464 5.05l-.707-.707a1 1 0 00-1.414 1.414l.707.707zM5 10a1 1 0 01-1 1H3a1 1 0 110-2h1a1 1 0 011 1zM8 16v-1h4v1a2 2 0 11-4 0zM12 14H8a4 4 0 01-.8-7.92 4.01 4.01 0 017.6 0A4 4 0 0112 14z"></path></svg>
+          Popular:
+        </span>
+        <button onclick="setSearchTerm('Apple CarPlay')" class="px-2.5 py-1 rounded-full bg-white/5 hover:bg-white/10 text-slate-300 transition shrink-0">Apple CarPlay</button>
+        <button onclick="setSearchTerm('Third-Row Seats')" class="px-2.5 py-1 rounded-full bg-white/5 hover:bg-white/10 text-slate-300 transition shrink-0">Third-Row Seats</button>
+        <button onclick="setSearchTerm('Heated Seats')" class="px-2.5 py-1 rounded-full bg-white/5 hover:bg-white/10 text-slate-300 transition shrink-0">Heated Seats</button>
+        <button onclick="setSearchTerm('Family SUV')" class="px-2.5 py-1 rounded-full bg-white/5 hover:bg-white/10 text-slate-300 transition shrink-0">Family SUV</button>
+        <button onclick="setSearchTerm('4WD Truck')" class="px-2.5 py-1 rounded-full bg-white/5 hover:bg-white/10 text-slate-300 transition shrink-0">4WD Truck</button>
+        <button onclick="setSearchTerm('Leather')" class="px-2.5 py-1 rounded-full bg-white/5 hover:bg-white/10 text-slate-300 transition shrink-0">Leather Interior</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 4 CORE DEALERSHIP PILLARS ================= -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-8 py-20">
+    <div class="text-center max-w-2xl mx-auto mb-14">
+      <span class="text-red-500 font-semibold text-xs tracking-widest uppercase">The Auto Expo Advantage</span>
+      <h2 class="font-heading font-black text-3xl sm:text-4xl text-white mt-2">Everything You Need In One Dealership</h2>
+      <p class="text-sm text-slate-400 mt-2">Zero stress, complete transparency, and customized financing designed for your exact financial budget.</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <!-- Pillar 1: In-House Financing -->
+      <div class="glass-card rounded-2xl p-6 relative flex flex-col justify-between group">
+        <div>
+          <div class="w-12 h-12 rounded-xl bg-red-600/20 text-red-400 border border-red-500/30 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+          </div>
+          <h3 class="font-heading font-bold text-lg text-white mb-2">In-House Financing</h3>
+          <p class="text-xs text-slate-400 leading-relaxed mb-4">
+            We are our own bank! Bad credit, bankruptcy, or no credit history? We approve you directly in our showroom without red tape.
+          </p>
+        </div>
+        <button onclick="openModal('financeModal')" class="inline-flex items-center gap-1.5 text-xs font-bold text-red-400 hover:text-red-300 pt-2 transition">
+          Apply Online (2 Mins) →
+        </button>
+      </div>
+
+      <!-- Pillar 2: Value Your Trade -->
+      <div class="glass-card rounded-2xl p-6 relative flex flex-col justify-between group">
+        <div>
+          <div class="w-12 h-12 rounded-xl bg-blue-600/20 text-blue-400 border border-blue-500/30 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"></path></svg>
+          </div>
+          <h3 class="font-heading font-bold text-lg text-white mb-2">Value Your Trade-In</h3>
+          <p class="text-xs text-slate-400 leading-relaxed mb-4">
+            Get an instant cash offer or apply equity toward your new vehicle. We pay top market rates for all makes and models in Houston.
+          </p>
+        </div>
+        <button onclick="openModal('tradeModal')" class="inline-flex items-center gap-1.5 text-xs font-bold text-blue-400 hover:text-blue-300 pt-2 transition">
+          Instant Appraisal Tool →
+        </button>
+      </div>
+
+      <!-- Pillar 3: Payment Calculator -->
+      <div class="glass-card rounded-2xl p-6 relative flex flex-col justify-between group">
+        <div>
+          <div class="w-12 h-12 rounded-xl bg-amber-600/20 text-amber-400 border border-amber-500/30 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+          </div>
+          <h3 class="font-heading font-bold text-lg text-white mb-2">Loan Calculator</h3>
+          <p class="text-xs text-slate-400 leading-relaxed mb-4">
+            Customize down payments, term lengths (36-72 mo), and APR credit tiers to find a monthly payment that comfortably fits your budget.
+          </p>
+        </div>
+        <a href="#calculator" class="inline-flex items-center gap-1.5 text-xs font-bold text-amber-400 hover:text-amber-300 pt-2 transition">
+          Calculate Monthly Rates →
+        </a>
+      </div>
+
+      <!-- Pillar 4: Certified Warranty -->
+      <div class="glass-card rounded-2xl p-6 relative flex flex-col justify-between group">
+        <div>
+          <div class="w-12 h-12 rounded-xl bg-emerald-600/20 text-emerald-400 border border-emerald-500/30 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+          </div>
+          <h3 class="font-heading font-bold text-lg text-white mb-2">Warranty Protection</h3>
+          <p class="text-xs text-slate-400 leading-relaxed mb-4">
+            Drive with 100% confidence. Comprehensive powertrain warranties, 150-point safety checks, and 24/7 roadside assistance included.
+          </p>
+        </div>
+        <a href="#warranty" class="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-400 hover:text-emerald-300 pt-2 transition">
+          View Protection Plans →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= INVENTORY SRP (SEARCH RESULTS & SHOWCASE) ================= -->
+  <section id="inventory" class="max-w-7xl mx-auto px-4 sm:px-8 py-16">
+    <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
+      <div>
+        <div class="flex items-center gap-2">
+          <span class="w-2.5 h-2.5 rounded-full bg-red-500 animate-ping"></span>
+          <span class="text-red-500 font-semibold text-xs tracking-widest uppercase">Live Showroom Inventory</span>
+        </div>
+        <h2 class="font-heading font-black text-3xl sm:text-4xl text-white mt-1">Featured Vehicles in Houston, TX</h2>
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div class="flex flex-wrap items-center gap-2 p-1.5 rounded-xl bg-neutral-900 border border-white/10 text-xs font-semibold">
+        <button onclick="filterCategory('all')" id="tab-all" class="cat-tab active px-4 py-2 rounded-lg bg-red-600 text-white transition">All (65)</button>
+        <button onclick="filterCategory('SUV')" id="tab-SUV" class="cat-tab px-4 py-2 rounded-lg text-slate-400 hover:text-white transition">SUVs</button>
+        <button onclick="filterCategory('Truck')" id="tab-Truck" class="cat-tab px-4 py-2 rounded-lg text-slate-400 hover:text-white transition">Trucks</button>
+        <button onclick="filterCategory('Sedan')" id="tab-Sedan" class="cat-tab px-4 py-2 rounded-lg text-slate-400 hover:text-white transition">Sedans</button>
+        <button onclick="filterCategory('Luxury')" id="tab-Luxury" class="cat-tab px-4 py-2 rounded-lg text-slate-400 hover:text-white transition">Luxury</button>
+      </div>
+    </div>
+
+    <!-- Live Vehicle Grid -->
+    <div id="carsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Cards dynamically generated by JavaScript below -->
+    </div>
+
+    <!-- Empty State -->
+    <div id="noResults" class="hidden text-center py-16">
+      <svg class="w-16 h-16 mx-auto text-slate-600 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+      <h3 class="text-lg font-bold text-white">No vehicles found matching your criteria</h3>
+      <p class="text-xs text-slate-400 mt-1">Try adjusting your filters or search keywords, or use our Car Finder service.</p>
+      <button onclick="resetFilters()" class="mt-4 px-4 py-2 rounded-lg bg-red-600 text-white text-xs font-semibold">Reset All Filters</button>
+    </div>
+  </section>
+
+  <!-- ================= INTERACTIVE PAYMENT CALCULATOR ================= -->
+  <section id="calculator" class="max-w-7xl mx-auto px-4 sm:px-8 py-16">
+    <div class="glass-card rounded-3xl p-6 sm:p-10 border border-white/10 bg-gradient-to-br from-neutral-950 via-[#0e1424] to-neutral-950">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+        <!-- Controls Column -->
+        <div class="lg:col-span-7 space-y-6">
+          <div>
+            <span class="text-amber-400 font-semibold text-xs tracking-widest uppercase">Finance Center</span>
+            <h2 class="font-heading font-black text-3xl sm:text-4xl text-white mt-1">Estimate Your Monthly Payment</h2>
+            <p class="text-xs sm:text-sm text-slate-400 mt-1">Configure vehicle price, down payment, term duration, and your estimated credit tier.</p>
+          </div>
+
+          <!-- Vehicle Price Slider -->
+          <div class="space-y-2">
+            <div class="flex justify-between text-xs font-semibold">
+              <span class="text-slate-300">Vehicle Price</span>
+              <span id="priceValDisplay" class="text-white font-mono text-sm font-bold">$28,500</span>
+            </div>
+            <input type="range" id="priceRange" min="15000" max="65000" step="500" value="28500" oninput="updateCalculator()" class="w-full h-2 bg-neutral-800 rounded-lg cursor-pointer">
+            <div class="flex justify-between text-[10px] text-slate-500 font-mono">
+              <span>$15,000</span>
+              <span>$65,000</span>
+            </div>
+          </div>
+
+          <!-- Down Payment Slider -->
+          <div class="space-y-2">
+            <div class="flex justify-between text-xs font-semibold">
+              <span class="text-slate-300">Down Payment &amp; Trade-In Credit</span>
+              <span id="downValDisplay" class="text-emerald-400 font-mono text-sm font-bold">$3,500</span>
+            </div>
+            <input type="range" id="downRange" min="0" max="20000" step="250" value="3500" oninput="updateCalculator()" class="w-full h-2 bg-neutral-800 rounded-lg cursor-pointer">
+            <div class="flex justify-between text-[10px] text-slate-500 font-mono">
+              <span>$0 (Zero Down)</span>
+              <span>$20,000</span>
+            </div>
+          </div>
+
+          <!-- Term Length Selection -->
+          <div class="space-y-2">
+            <div class="text-xs font-semibold text-slate-300">Loan Term (Months)</div>
+            <div class="grid grid-cols-4 gap-2">
+              <button onclick="setTerm(36)" class="term-btn py-2 rounded-xl bg-neutral-800 text-slate-300 hover:text-white text-xs font-bold transition">36 Mo</button>
+              <button onclick="setTerm(48)" class="term-btn py-2 rounded-xl bg-neutral-800 text-slate-300 hover:text-white text-xs font-bold transition">48 Mo</button>
+              <button onclick="setTerm(60)" class="term-btn active py-2 rounded-xl bg-red-600 text-white text-xs font-bold transition">60 Mo</button>
+              <button onclick="setTerm(72)" class="term-btn py-2 rounded-xl bg-neutral-800 text-slate-300 hover:text-white text-xs font-bold transition">72 Mo</button>
+            </div>
+          </div>
+
+          <!-- Credit Tier APR Selection -->
+          <div class="space-y-2">
+            <div class="text-xs font-semibold text-slate-300">Estimated Credit Rating</div>
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 text-center text-xs">
+              <button onclick="setCredit(5.9)" class="credit-btn py-2.5 px-2 rounded-xl bg-neutral-800 text-slate-300 border border-white/5 hover:border-white/20 transition">
+                <div class="font-bold text-white">Excellent</div>
+                <div class="text-[10px] text-slate-400">720+ (5.9%)</div>
+              </button>
+              <button onclick="setCredit(8.5)" class="credit-btn active py-2.5 px-2 rounded-xl bg-neutral-800 border border-red-500/50 text-white transition">
+                <div class="font-bold text-white">Good</div>
+                <div class="text-[10px] text-red-400">660-719 (8.5%)</div>
+              </button>
+              <button onclick="setCredit(12.9)" class="credit-btn py-2.5 px-2 rounded-xl bg-neutral-800 text-slate-300 border border-white/5 hover:border-white/20 transition">
+                <div class="font-bold text-white">Fair</div>
+                <div class="text-[10px] text-slate-400">600-659 (12.9%)</div>
+              </button>
+              <button onclick="setCredit(17.9)" class="credit-btn py-2.5 px-2 rounded-xl bg-neutral-800 text-slate-300 border border-white/5 hover:border-white/20 transition">
+                <div class="font-bold text-white">Rebuilding</div>
+                <div class="text-[10px] text-slate-400">&lt;600 / In-House</div>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Result Box -->
+        <div class="lg:col-span-5">
+          <div class="p-8 rounded-2xl bg-neutral-950 border border-white/10 relative overflow-hidden text-center space-y-6 shadow-2xl">
+            <div class="absolute top-0 right-0 w-44 h-44 bg-red-600/10 blur-3xl pointer-events-none rounded-full"></div>
+
+            <span class="text-xs uppercase tracking-wider text-slate-400 font-semibold">Estimated Monthly Payment</span>
+            
+            <div class="font-heading font-black text-5xl sm:text-6xl text-white tracking-tight">
+              $<span id="monthlyPaymentResult">498</span><span class="text-lg text-slate-400 font-normal">/mo*</span>
+            </div>
+
+            <div class="space-y-3 pt-4 border-t border-white/10 text-xs text-left">
+              <div class="flex justify-between text-slate-400">
+                <span>Loan Principal:</span>
+                <span id="calcPrincipal" class="text-white font-mono font-semibold">$25,000</span>
+              </div>
+              <div class="flex justify-between text-slate-400">
+                <span>Selected Term:</span>
+                <span id="calcTerm" class="text-white font-mono font-semibold">60 Months</span>
+              </div>
+              <div class="flex justify-between text-slate-400">
+                <span>Estimated APR:</span>
+                <span id="calcApr" class="text-white font-mono font-semibold">8.5%</span>
+              </div>
+              <div class="flex justify-between text-slate-400">
+                <span>Total Interest Est.:</span>
+                <span id="calcInterest" class="text-white font-mono font-semibold">$4,880</span>
+              </div>
+            </div>
+
+            <button onclick="openModal('financeModal')" class="w-full py-3.5 rounded-xl font-bold text-sm bg-gradient-to-r from-red-600 to-rose-600 hover:from-red-500 hover:to-rose-500 text-white shadow-xl shadow-red-600/25 transition">
+              Lock In This Payment &amp; Apply
+            </button>
+
+            <p class="text-[10px] text-slate-500 leading-normal">
+              *Estimates exclude title, license, taxes, and documentary fees. Actual rates determined upon loan underwriter approval.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= COMPREHENSIVE WARRANTY PROGRAM ================= -->
+  <section id="warranty" class="max-w-7xl mx-auto px-4 sm:px-8 py-16">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+      <div class="lg:col-span-6 space-y-6">
+        <span class="text-emerald-400 font-semibold text-xs tracking-widest uppercase">Certified Peace of Mind</span>
+        <h2 class="font-heading font-black text-3xl sm:text-4xl text-white">Auto Expo Houston Certified Protection</h2>
+        <p class="text-sm text-slate-300 leading-relaxed">
+          Every pre-owned vehicle we sell undergoes a comprehensive mechanical and structural inspection. No salvage titles, no flood damage, and no frame defects. We stand behind our vehicles with complete protection packages.
+        </p>
+
+        <div class="space-y-3.5">
+          <div class="flex items-start gap-3">
+            <div class="w-6 h-6 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0 mt-0.5">✓</div>
+            <div>
+              <h4 class="text-sm font-bold text-white">150-Point Certified Multi-Point Inspection</h4>
+              <p class="text-xs text-slate-400">Engine, transmission, electrical, suspension, brakes, AC &amp; safety restraints fully verified.</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-3">
+            <div class="w-6 h-6 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0 mt-0.5">✓</div>
+            <div>
+              <h4 class="text-sm font-bold text-white">Extended Powertrain &amp; Drivetrain Coverage</h4>
+              <p class="text-xs text-slate-400">Options up to 5 Years / 100,000 miles with zero deductible nationwide coverage.</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-3">
+            <div class="w-6 h-6 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0 mt-0.5">✓</div>
+            <div>
+              <h4 class="text-sm font-bold text-white">24/7 Roadside Assistance &amp; Towing Included</h4>
+              <p class="text-xs text-slate-400">Flat tire changes, battery jump starts, emergency fuel delivery, and lockout services.</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-3">
+            <div class="w-6 h-6 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0 mt-0.5">✓</div>
+            <div>
+              <h4 class="text-sm font-bold text-white">Free Clean CARFAX® Vehicle History Report</h4>
+              <p class="text-xs text-slate-400">Full vehicle title verification and service history documentation provided with every key.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Warranty Badge Graphic -->
+      <div class="lg:col-span-6">
+        <div class="glass-card rounded-3xl p-8 border border-white/10 relative overflow-hidden bg-neutral-950">
+          <div class="flex items-center justify-between border-b border-white/10 pb-6">
+            <div>
+              <span class="text-xs text-slate-400 uppercase font-mono">Certificate Of Warranty</span>
+              <h3 class="font-heading font-black text-2xl text-white">Platinum Shield Protection</h3>
+            </div>
+            <div class="w-16 h-16 rounded-full bg-gradient-to-tr from-amber-500 to-amber-200 text-neutral-950 flex items-center justify-center font-black text-xl shadow-lg shadow-amber-500/30">
+              ★
+            </div>
+          </div>
+
+          <div class="grid grid-cols-2 gap-4 my-6">
+            <div class="p-4 rounded-xl bg-neutral-900 border border-white/5">
+              <div class="text-xs text-slate-400">Deductible</div>
+              <div class="font-heading font-bold text-lg text-white">$0 Out of Pocket</div>
+            </div>
+            <div class="p-4 rounded-xl bg-neutral-900 border border-white/5">
+              <div class="text-xs text-slate-400">Repair Facilities</div>
+              <div class="font-heading font-bold text-lg text-white">Any ASE Certified</div>
+            </div>
+            <div class="p-4 rounded-xl bg-neutral-900 border border-white/5">
+              <div class="text-xs text-slate-400">Transferable</div>
+              <div class="font-heading font-bold text-lg text-emerald-400">100% Transferable</div>
+            </div>
+            <div class="p-4 rounded-xl bg-neutral-900 border border-white/5">
+              <div class="text-xs text-slate-400">Rental Car Benefit</div>
+              <div class="font-heading font-bold text-lg text-white">Included ($50/day)</div>
+            </div>
+          </div>
+
+          <button onclick="openModal('contactModal')" class="w-full py-3 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-white font-semibold text-xs transition">
+            Speak With A Warranty Specialist
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= MEET OUR SPECIALISTS ================= -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-8 py-16 border-t border-white/5">
+    <div class="text-center max-w-2xl mx-auto mb-12">
+      <span class="text-red-500 font-semibold text-xs tracking-widest uppercase">Dedicated Dealership Team</span>
+      <h2 class="font-heading font-black text-3xl sm:text-4xl text-white mt-1">Meet Your Houston Auto Advisors</h2>
+      <p class="text-xs sm:text-sm text-slate-400 mt-2">Real professionals dedicated to finding you the right car and securing the easiest loan approval in Texas.</p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <!-- Specialist 1 -->
+      <div class="glass-card rounded-2xl p-5 text-center group border border-white/10">
+        <div class="w-20 h-20 mx-auto rounded-full bg-gradient-to-tr from-neutral-800 to-neutral-700 border-2 border-red-500/50 flex items-center justify-center text-2xl font-bold text-white mb-4 group-hover:scale-105 transition">
+          RG
+        </div>
+        <h4 class="font-heading font-bold text-base text-white">Rosario Gonzalez</h4>
+        <div class="text-xs text-red-400 font-semibold mb-2">Finance Director</div>
+        <p class="text-[11px] text-slate-400 mb-4">Specializes in in-house approvals, ITIN loans, and first-time buyer financing.</p>
+        <a href="tel:+18324465514" class="inline-flex items-center gap-1 text-xs text-slate-300 hover:text-white bg-white/5 px-3 py-1.5 rounded-lg border border-white/10 transition">
+          (832) 446-5514
+        </a>
+      </div>
+
+      <!-- Specialist 2 -->
+      <div class="glass-card rounded-2xl p-5 text-center group border border-white/10">
+        <div class="w-20 h-20 mx-auto rounded-full bg-gradient-to-tr from-neutral-800 to-neutral-700 border-2 border-blue-500/50 flex items-center justify-center text-2xl font-bold text-white mb-4 group-hover:scale-105 transition">
+          TB
+        </div>
+        <h4 class="font-heading font-bold text-base text-white">Tony Banuelos</h4>
+        <div class="text-xs text-blue-400 font-semibold mb-2">Senior Sales Advisor</div>
+        <p class="text-[11px] text-slate-400 mb-4">8+ years matching drivers with reliable trucks, family SUVs, and performance vehicles.</p>
+        <a href="tel:+17132015780" class="inline-flex items-center gap-1 text-xs text-slate-300 hover:text-white bg-white/5 px-3 py-1.5 rounded-lg border border-white/10 transition">
+          (713) 201-5780
+        </a>
+      </div>
+
+      <!-- Specialist 3 -->
+      <div class="glass-card rounded-2xl p-5 text-center group border border-white/10">
+        <div class="w-20 h-20 mx-auto rounded-full bg-gradient-to-tr from-neutral-800 to-neutral-700 border-2 border-amber-500/50 flex items-center justify-center text-2xl font-bold text-white mb-4 group-hover:scale-105 transition">
+          LA
+        </div>
+        <h4 class="font-heading font-bold text-base text-white">Landon Alvarez</h4>
+        <div class="text-xs text-amber-400 font-semibold mb-2">Client Relationship Manager</div>
+        <p class="text-[11px] text-slate-400 mb-4">Focuses on transparent test drive bookings and VIP trade-in evaluations.</p>
+        <a href="tel:+18324300334" class="inline-flex items-center gap-1 text-xs text-slate-300 hover:text-white bg-white/5 px-3 py-1.5 rounded-lg border border-white/10 transition">
+          (832) 430-0334
+        </a>
+      </div>
+
+      <!-- Specialist 4 -->
+      <div class="glass-card rounded-2xl p-5 text-center group border border-white/10">
+        <div class="w-20 h-20 mx-auto rounded-full bg-gradient-to-tr from-neutral-800 to-neutral-700 border-2 border-emerald-500/50 flex items-center justify-center text-2xl font-bold text-white mb-4 group-hover:scale-105 transition">
+          JM
+        </div>
+        <h4 class="font-heading font-bold text-base text-white">Jeremiah Martinez</h4>
+        <div class="text-xs text-emerald-400 font-semibold mb-2">Operations &amp; Delivery</div>
+        <p class="text-[11px] text-slate-400 mb-4">Oversees vehicle detailing, title transfers, and same-day Texas registration.</p>
+        <a href="tel:+13462279738" class="inline-flex items-center gap-1 text-xs text-slate-300 hover:text-white bg-white/5 px-3 py-1.5 rounded-lg border border-white/10 transition">
+          (346) 227-9738
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= VERIFIED REVIEWS & SOCIAL PROOF ================= -->
+  <section id="reviews" class="max-w-7xl mx-auto px-4 sm:px-8 py-16">
+    <div class="glass-card rounded-3xl p-8 sm:p-12 border border-white/10 bg-neutral-950">
+      <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-6 mb-10 pb-8 border-b border-white/10">
+        <div>
+          <div class="flex items-center gap-2 text-amber-400 font-bold text-sm mb-1">
+            <span>★★★★★</span>
+            <span class="text-white">4.9 Star Rating</span>
+          </div>
+          <h2 class="font-heading font-black text-3xl sm:text-4xl text-white">Loved By Houston Drivers</h2>
+          <p class="text-xs sm:text-sm text-slate-400 mt-1">Over 404+ genuine reviews on Google &amp; CarGurus.</p>
+        </div>
+
+        <a href="https://search.google.com/local/reviews?placeid=ChIJHfSk0qfCQIYRjbOLvZhlW94" target="_blank" rel="noopener" class="px-5 py-3 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-white font-semibold text-xs flex items-center gap-2 self-start lg:self-auto transition">
+          <svg class="w-4 h-4 text-amber-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15h2v2h-2v-2zm0-10h2v8h-2V7z"/></svg>
+          Read 404+ Google Reviews
+        </a>
+      </div>
+
+      <!-- Testimonials Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="p-6 rounded-2xl bg-neutral-900 border border-white/5 flex flex-col justify-between">
+          <div class="space-y-3">
+            <div class="text-amber-400 text-sm">★★★★★</div>
+            <p class="text-xs text-slate-300 leading-relaxed italic">
+              "I came to Auto Expo and bought a Hyundai. Had a very pleasant experience with Lupita and Tony helping us with no rush and answering all our questions. The in-house financing process was painless and fast!"
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-white/5 flex items-center gap-3">
+            <div class="w-8 h-8 rounded-full bg-red-600/20 text-red-400 font-bold text-xs flex items-center justify-center">MR</div>
+            <div>
+              <div class="text-xs font-bold text-white">Maria Rodriguez</div>
+              <div class="text-[10px] text-slate-500">Houston, TX · Verified Buyer</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-neutral-900 border border-white/5 flex flex-col justify-between">
+          <div class="space-y-3">
+            <div class="text-amber-400 text-sm">★★★★★</div>
+            <p class="text-xs text-slate-300 leading-relaxed italic">
+              "Excellent service from this car dealer. The staff were honest, professional, and made the entire trade-in process smooth. Got an incredible deal on an F-150 with a clean CARFAX and zero hidden fees."
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-white/5 flex items-center gap-3">
+            <div class="w-8 h-8 rounded-full bg-blue-600/20 text-blue-400 font-bold text-xs flex items-center justify-center">DW</div>
+            <div>
+              <div class="text-xs font-bold text-white">David Washington</div>
+              <div class="text-[10px] text-slate-500">Sugar Land, TX · Verified Buyer</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-neutral-900 border border-white/5 flex flex-col justify-between">
+          <div class="space-y-3">
+            <div class="text-amber-400 text-sm">★★★★★</div>
+            <p class="text-xs text-slate-300 leading-relaxed italic">
+              "This is hands down one of the best places in Houston for used cars! Everyone was friendly and super helpful. Rosario in finance worked magic on my monthly payment despite my challenging credit!"
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-white/5 flex items-center gap-3">
+            <div class="w-8 h-8 rounded-full bg-emerald-600/20 text-emerald-400 font-bold text-xs flex items-center justify-center">JC</div>
+            <div>
+              <div class="text-xs font-bold text-white">Jorge Castaneda</div>
+              <div class="text-[10px] text-slate-500">Katy, TX · Verified Buyer</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CAR FINDER CONCIERGE BANNER ================= -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-8 py-12">
+    <div class="relative glass-card rounded-3xl p-8 sm:p-12 overflow-hidden border border-red-500/30 bg-gradient-to-r from-red-950/40 via-neutral-950 to-neutral-950">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+        <div class="lg:col-span-8 space-y-3">
+          <span class="text-red-400 font-bold text-xs uppercase tracking-widest">VIP Concierge Service</span>
+          <h3 class="font-heading font-black text-2xl sm:text-3xl text-white">Can't Find The Exact Car You Want?</h3>
+          <p class="text-xs sm:text-sm text-slate-300 max-w-xl">
+            Our Texas wholesale acquisition network accesses over 5,000+ off-lease, certified pre-owned vehicles weekly. Tell us what you're looking for and we’ll source it for you at wholesale pricing.
+          </p>
+        </div>
+        <div class="lg:col-span-4 flex flex-col sm:flex-row lg:flex-col gap-3">
+          <button onclick="openModal('carFinderModal')" class="w-full py-3.5 px-6 rounded-xl font-bold text-xs bg-red-600 hover:bg-red-500 text-white shadow-lg shadow-red-600/30 transition text-center">
+            Submit Free Vehicle Request
+          </button>
+          <a href="tel:+17137710244" class="w-full py-3.5 px-6 rounded-xl font-semibold text-xs bg-neutral-900 hover:bg-neutral-800 text-white border border-white/10 transition text-center">
+            Call Dealership: (713) 771-0244
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= LOCATION & CONTACT DETAILS ================= -->
+  <section id="contact" class="max-w-7xl mx-auto px-4 sm:px-8 py-16 border-t border-white/5">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+      <!-- Location Details & Hours -->
+      <div class="lg:col-span-5 space-y-6">
+        <div>
+          <span class="text-red-500 font-semibold text-xs tracking-widest uppercase">Visit Showroom</span>
+          <h2 class="font-heading font-black text-3xl text-white mt-1">Auto Expo Houston</h2>
+          <p class="text-xs text-slate-400 mt-1">Conveniently located off Bissonnet Street in Southwest Houston.</p>
+        </div>
+
+        <div class="space-y-4 text-xs">
+          <div class="flex items-start gap-3 p-4 rounded-xl bg-neutral-900 border border-white/5">
+            <svg class="w-5 h-5 text-red-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+            <div>
+              <div class="font-bold text-white text-sm">Dealership Address</div>
+              <div class="text-slate-300">9820 Bissonnet St, Houston, TX 77036</div>
+              <a href="https://www.google.com/maps/place/Auto+Expo+Houston/@29.675709,-95.5531772,1640m" target="_blank" rel="noopener" class="text-red-400 hover:underline font-semibold mt-1 inline-block">
+                Open in Google Maps →
+              </a>
+            </div>
+          </div>
+
+          <div class="p-4 rounded-xl bg-neutral-900 border border-white/5">
+            <div class="font-bold text-white text-sm mb-2 flex items-center justify-between">
+              <span>Business Operating Hours</span>
+              <span class="text-emerald-400 text-[11px] font-normal">● Open Now</span>
+            </div>
+            <div class="space-y-1.5 text-slate-400">
+              <div class="flex justify-between"><span>Monday – Friday:</span> <span class="text-white font-medium">9:00 AM – 7:00 PM</span></div>
+              <div class="flex justify-between"><span>Saturday:</span> <span class="text-white font-medium">9:00 AM – 6:00 PM</span></div>
+              <div class="flex justify-between"><span>Sunday:</span> <span class="text-rose-400 font-medium">Closed (Family Day)</span></div>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-2 gap-3">
+            <a href="tel:+17137710244" class="p-3.5 rounded-xl bg-neutral-900 border border-white/5 hover:border-red-500/40 text-center transition">
+              <div class="text-[10px] text-slate-400 uppercase">Sales &amp; Finance</div>
+              <div class="text-white font-bold text-xs mt-0.5">(713) 771-0244</div>
+            </a>
+            <a href="mailto:sales@autoexpohouston.com" class="p-3.5 rounded-xl bg-neutral-900 border border-white/5 hover:border-red-500/40 text-center transition">
+              <div class="text-[10px] text-slate-400 uppercase">Direct Email</div>
+              <div class="text-white font-bold text-xs mt-0.5">sales@autoexpohouston.com</div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Contact Form -->
+      <div class="lg:col-span-7">
+        <div class="glass-card rounded-2xl p-6 sm:p-8 border border-white/10 bg-neutral-950">
+          <h3 class="font-heading font-bold text-xl text-white mb-1">Send A Direct Message</h3>
+          <p class="text-xs text-slate-400 mb-6">Ask about a vehicle, book an appointment, or request financing details.</p>
+
+          <form onsubmit="handleContactSubmit(event)" class="space-y-4 text-xs">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-slate-300 font-semibold mb-1">First &amp; Last Name *</label>
+                <input required type="text" placeholder="John Doe" class="w-full px-4 py-3 rounded-xl bg-neutral-900 border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-red-500">
+              </div>
+              <div>
+                <label class="block text-slate-300 font-semibold mb-1">Phone Number *</label>
+                <input required type="tel" placeholder="(713) 000-0000" class="w-full px-4 py-3 rounded-xl bg-neutral-900 border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-red-500">
+              </div>
+            </div>
+
+            <div>
+              <label class="block text-slate-300 font-semibold mb-1">Email Address *</label>
+              <input required type="email" placeholder="john@example.com" class="w-full px-4 py-3 rounded-xl bg-neutral-900 border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-red-500">
+            </div>
+
+            <div>
+              <label class="block text-slate-300 font-semibold mb-1">What can we help you with?</label>
+              <select class="w-full px-4 py-3 rounded-xl bg-neutral-900 border border-white/10 text-white focus:outline-none focus:border-red-500">
+                <option>In-House Financing Pre-Qualification</option>
+                <option>Inquiring About A Specific Vehicle</option>
+                <option>Trade-In Valuation Appraisal</option>
+                <option>Schedule A Test Drive Visit</option>
+                <option>Other Question</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="block text-slate-300 font-semibold mb-1">Message or Comments</label>
+              <textarea rows="3" placeholder="Tell us which car you like or when you'd like to visit..." class="w-full px-4 py-3 rounded-xl bg-neutral-900 border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-red-500"></textarea>
+            </div>
+
+            <button type="submit" class="w-full py-3.5 rounded-xl font-bold text-xs bg-red-600 hover:bg-red-500 text-white shadow-lg shadow-red-600/30 transition">
+              Send Message To Auto Expo Houston
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="bg-neutral-950 border-t border-white/10 text-slate-400 text-xs py-14">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8 space-y-10">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+        <!-- Col 1: Brand Info -->
+        <div class="lg:col-span-2 space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-8 h-8 rounded-lg bg-red-600 flex items-center justify-center text-white font-extrabold text-base font-heading">
+              A
+            </div>
+            <div class="font-heading font-black text-lg text-white">
+              AUTO EXPO <span class="text-red-500">HOUSTON</span>
+            </div>
+          </div>
+          <p class="text-xs text-slate-400 leading-relaxed max-w-sm">
+            Houston's premier destination for high-quality used cars, heavy-duty trucks, family SUVs, and flexible in-house automotive loans with guaranteed approvals.
+          </p>
+          <div class="text-xs text-slate-400">
+            9820 Bissonnet St, Houston, TX 77036<br>
+            Direct: (713) 771-0244 · sales@autoexpohouston.com
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div class="space-y-3">
+          <div class="font-heading font-bold text-white text-sm">Inventory</div>
+          <ul class="space-y-2">
+            <li><a href="#inventory" onclick="filterCategory('all')" class="hover:text-white transition">All Used Cars</a></li>
+            <li><a href="#inventory" onclick="filterCategory('truck')" class="hover:text-white transition">Used Trucks</a></li>
+            <li><a href="#inventory" onclick="filterCategory('suv')" class="hover:text-white transition">Used SUVs</a></li>
+            <li><a href="#inventory" onclick="filterCategory('sedan')" class="hover:text-white transition">Sedans &amp; Coupes</a></li>
+            <li><button onclick="openModal('carFinderModal')" class="hover:text-white transition text-left">Car Finder Service</button></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Finance & Services -->
+        <div class="space-y-3">
+          <div class="font-heading font-bold text-white text-sm">Finance &amp; Services</div>
+          <ul class="space-y-2">
+            <li><button onclick="openModal('financeModal')" class="hover:text-white transition text-left">In-House Financing</button></li>
+            <li><button onclick="openModal('tradeModal')" class="hover:text-white transition text-left">Value Your Trade-In</button></li>
+            <li><a href="#calculator" class="hover:text-white transition">Payment Calculator</a></li>
+            <li><a href="#warranty" class="hover:text-white transition">Warranty Coverage</a></li>
+            <li><button onclick="openModal('testDriveModal')" class="hover:text-white transition text-left">Schedule Test Drive</button></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Trust & Legal -->
+        <div class="space-y-3">
+          <div class="font-heading font-bold text-white text-sm">Customer &amp; Legal</div>
+          <ul class="space-y-2">
+            <li><a href="#reviews" class="hover:text-white transition">404+ Google Reviews</a></li>
+            <li><a href="#contact" class="hover:text-white transition">Dealership Showroom</a></li>
+            <li><a href="#" class="hover:text-white transition">Privacy Policy</a></li>
+            <li><a href="#" class="hover:text-white transition">Terms of Service</a></li>
+            <li><a href="#" class="hover:text-white transition">FCC / SMS Disclosures</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Legal & Disclaimer Copy -->
+      <div class="pt-8 border-t border-white/5 space-y-4 text-[11px] text-slate-400 leading-normal">
+        <p>
+          <strong>Financing Disclaimer:</strong> While every effort has been made to ensure the accuracy of vehicle prices and finance options on this site, absolute accuracy cannot be guaranteed. Monthly payments listed are estimates based on standard credit profiles and down payment requirements, excluding Texas tax, title, registration, and documentation fees. All financing is subject to credit approval and dealership verification.
+        </p>
+        <div class="flex flex-col sm:flex-row items-center justify-between gap-4 pt-4 border-t border-white/5 text-slate-400">
+          <div>© 2026 Auto Expo Houston. All Rights Reserved. Houston, Texas.</div>
+          <div class="flex items-center gap-4">
+            <span class="hover:text-slate-300">Facebook</span>
+            <span class="hover:text-slate-300">Instagram</span>
+            <span class="hover:text-slate-300">YouTube</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= FLOATING AI ASSISTANT WIDGET (AS IN REFERENCE) ================= -->
+  <div class="fixed bottom-6 right-6 z-50">
+    <div id="aiChatDrawer" class="hidden mb-3 w-80 sm:w-96 glass-card rounded-2xl overflow-hidden shadow-2xl border border-white/15 bg-neutral-950 flex flex-col h-[460px]">
+      <!-- Chat Header -->
+      <div class="p-4 bg-gradient-to-r from-red-600 to-rose-600 text-white flex items-center justify-between">
+        <div class="flex items-center gap-2.5">
+          <div class="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center font-bold text-xs">
+            🤖
+          </div>
+          <div>
+            <div class="font-bold text-xs leading-none">Auto Expo Assistant</div>
+            <div class="text-[10px] text-rose-100 mt-0.5 flex items-center gap-1">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span> Online &amp; Ready to help
+            </div>
+          </div>
+        </div>
+        <button onclick="toggleChat()" class="text-white hover:text-slate-200">
+          ✕
+        </button>
+      </div>
+
+      <!-- Chat Log -->
+      <div id="chatMessages" class="flex-1 p-4 overflow-y-auto space-y-3 custom-scrollbar text-xs">
+        <div class="bg-neutral-900 p-3 rounded-xl rounded-tl-none border border-white/5 text-slate-300">
+          👋 Hi there! Welcome to Auto Expo Houston. How can I help you today?
+        </div>
+        <!-- Suggested quick prompts -->
+        <div class="space-y-1.5 pt-1">
+          <button onclick="sendQuickPrompt('Need help finding a vehicle under $25,000')" class="w-full text-left p-2 rounded-lg bg-white/5 hover:bg-white/10 text-red-400 text-[11px] border border-white/5 transition">
+            🚗 Need help finding a vehicle under $25,000
+          </button>
+          <button onclick="sendQuickPrompt('How does in-house financing work?')" class="w-full text-left p-2 rounded-lg bg-white/5 hover:bg-white/10 text-red-400 text-[11px] border border-white/5 transition">
+            💳 How does in-house financing work?
+          </button>
+          <button onclick="sendQuickPrompt('I want to schedule a test drive')" class="w-full text-left p-2 rounded-lg bg-white/5 hover:bg-white/10 text-red-400 text-[11px] border border-white/5 transition">
+            📅 I want to schedule a test drive
+          </button>
+        </div>
+      </div>
+
+      <!-- Chat Input -->
+      <div class="p-3 border-t border-white/10 bg-neutral-900 flex items-center gap-2">
+        <input id="chatInput" type="text" placeholder="Type your question..." onkeypress="handleChatKey(event)" class="flex-1 bg-neutral-950 border border-white/10 rounded-xl px-3 py-2 text-xs text-white focus:outline-none focus:border-red-500">
+        <button onclick="sendChatMessage()" class="p-2 rounded-xl bg-red-600 text-white hover:bg-red-500 transition">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Floating Chat Trigger -->
+    <button onclick="toggleChat()" class="p-4 rounded-full bg-gradient-to-tr from-red-600 to-rose-500 text-white shadow-2xl shadow-red-600/50 hover:scale-105 active:scale-95 transition flex items-center gap-2 group">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"></path></svg>
+      <span class="hidden group-hover:inline text-xs font-bold pr-1">Chat With Us</span>
+    </button>
+  </div>
+
+  <!-- ================= MODALS ================= -->
+
+  <!-- 1. VEHICLE DETAIL MODAL -->
+  <div id="quickViewModal" class="fixed inset-0 z-50 hidden modal-backdrop flex items-center justify-center p-4">
+    <div class="relative w-full max-w-3xl glass-card rounded-2xl overflow-hidden border border-white/15 bg-neutral-950 p-6 max-h-[90vh] overflow-y-auto custom-scrollbar">
+      <button onclick="closeModal('quickViewModal')" class="absolute top-4 right-4 text-slate-400 hover:text-white p-2 text-lg">✕</button>
+      <div id="modalCarContent">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. IN-HOUSE FINANCING PRE-APPROVAL MODAL -->
+  <div id="financeModal" class="fixed inset-0 z-50 hidden modal-backdrop flex items-center justify-center p-4">
+    <div class="relative w-full max-w-xl glass-card rounded-2xl overflow-hidden border border-white/15 bg-neutral-950 p-6 sm:p-8 max-h-[90vh] overflow-y-auto custom-scrollbar">
+      <button onclick="closeModal('financeModal')" class="absolute top-4 right-4 text-slate-400 hover:text-white p-2 text-lg">✕</button>
+      <div class="text-left space-y-4">
+        <div>
+          <span class="px-2.5 py-1 rounded bg-red-600/20 text-red-400 border border-red-500/30 text-[10px] font-bold uppercase tracking-wider">No Impact On Credit Score</span>
+          <h3 class="font-heading font-black text-2xl text-white mt-2">In-House Credit Pre-Qualification</h3>
+          <p class="text-xs text-slate-400">Get pre-approved in under 2 minutes. Good credit, bad credit, or no credit history accepted.</p>
+        </div>
+
+        <form onsubmit="handleFinanceSubmit(event)" class="space-y-4 text-xs">
+          <div class="grid grid-cols-2 gap-3">
+            <div>
+              <label class="block text-slate-300 font-semibold mb-1">First Name *</label>
+              <input required type="text" placeholder="John" class="w-full px-3.5 py-2.5 rounded-xl bg-neutral-900 border border-white/10 text-white">
+            </div>
+            <div>
+              <label class="block text-slate-300 font-semibold mb-1">Last Name *</label>
+              <input required type="text" placeholder="Doe" class="w-full px-3.5 py-2.5 rounded-xl bg-neutral-900 border border-white/10 text-white">
+            </div>
+          </div>
+
+          <div class="grid grid-cols-2 gap-3">
+            <div>
+              <label class="block text-slate-300 font-semibold mb-1">Mobile Phone *</label>
+              <input required type="tel" placeholder="(713) 000-0000" class="w-full px-3.5 py-2.5 rounded-xl bg-neutral-900 border border-white/10 text-white">
+            </div>
+            <div>
+              <label class="block text-slate-300 font-semibold mb-1">Email *</label>
+              <input required type="email" placeholder="john@example.com" class="w-full px-3.5 py-2.5 rounded-xl bg-neutral-900 border border-white/10 text-white">
+            </div>
+          </div>
+
+          <div class="grid grid-cols-2 gap-3">
+            <div>
+              <label class="block text-slate-300 font-semibold mb-1">Monthly Gross Income *</label>
+              <input required type="text" placeholder="$3,500/mo" class="w-full px-3.5 py-2.5 rounded-xl bg-neutral-900 border border-white/10 text-white">
+            </div>
+            <div>
+              <label class="block text-slate-300 font-semibold mb-1">Estimated Down Payment</label>
+              <input type="text" placeholder="$1,500" class="w-full px-3.5 py-2.5 rounded-xl bg-neutral-900 border border-white/10 text-white">
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-slate-300 font-semibold mb-1">Vehicle of Interest</label>
+            <input type="text" placeholder="e.g. 2022 Chevy Silverado or Ford Explorer" class="w-full px-3.5 py-2.5 rounded-xl bg-neutral-900 border border-white/10 text-white">
+          </div>
+
+          <div class="p-3 rounded-xl bg-neutral-900 border border-white/5 text-[10px] text-slate-400">
+            🔒 By submitting, you authorize Auto Expo Houston to conduct a soft pre-qualification check that will not affect your credit score.
+          </div>
+
+          <button type="submit" class="w-full py-3.5 rounded-xl font-bold text-xs bg-red-600 hover:bg-red-500 text-white shadow-lg shadow-red-600/30 transition">
+            Check My Approval Now ⚡
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. VALUE YOUR TRADE-IN MODAL -->
+  <div id="tradeModal" class="fixed inset-0 z-50 hidden modal-backdrop flex items-center justify-center p-4">
+    <div class="relative w-full max-w-xl glass-card rounded-2xl overflow-hidden border border-white/15 bg-neutral-950 p-6 sm:p-8 max-h-[90vh] overflow-y-auto custom-scrollbar">
+      <button onclick="closeModal('tradeModal')" class="absolute top-4 right-4 text-slate-400 hover:text-white p-2 text-lg">✕</button>
+      <div class="text-left space-y-4">
+        <div>
+          <span class="px-2.5 py-1 rounded bg-blue-600/20 text-blue-400 border border-blue-500/30 text-[10px] font-bold uppercase tracking-wider">Top Houston Dollar</span>
+          <h3 class="font-heading font-black text-2xl text-white mt-2">Instant Trade-In Valuation</h3>
+          <p class="text-xs text-slate-400">We buy all cars! Get an instant estimated cash appraisal in 60 seconds.</p>
+        </div>
+
+        <form onsubmit="handleTradeSubmit(event)" class="space-y-4 text-xs">
+          <div class="grid grid-cols-3 gap-2">
+            <div>
+              <label class="block text-slate-300 font-semibold mb-1">Year *</label>
+              <input required id="tradeYear" type="number" placeholder="2018" class="w-full px-3 py-2.5 rounded-xl bg-neutral-900 border border-white/10 text-white">
+            </div>
+            <div>
+              <label class="block text-slate-300 font-semibold mb-1">Make *</label>
+              <input required id="tradeMake" type="text" placeholder="Toyota" class="w-full px-3 py-2.5 rounded-xl bg-neutral-900 border border-white/10 text-white">
+            </div>
+            <div>
+              <label class="block text-slate-300 font-semibold mb-1">Model *</label>
+              <input required id="tradeModel" type="text" placeholder="Camry" class="w-full px-3 py-2.5 rounded-xl bg-neutral-900 border border-white/10 text-white">
+            </div>
+          </div>
+
+          <div class="grid grid-cols-2 gap-3">
+            <div>
+              <label class="block text-slate-300 font-semibold mb-1">Mileage *</label>
+              <input required id="tradeMileage" type="number" placeholder="65,000" class="w-full px-3.5 py-2.5 rounded-xl bg-neutral-900 border border-white/10 text-white">
+            </div>
+            <div>
+              <label class="block text-slate-300 font-semibold mb-1">Vehicle Condition</label>
+              <select class="w-full px-3.5 py-2.5 rounded-xl bg-neutral-900 border border-white/10 text-white">
+                <option>Excellent (Clean title, minor wear)</option>
+                <option>Good (Normal wear, runs well)</option>
+                <option>Fair (Some cosmetic/mechanical repair)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-2 gap-3">
+            <div>
+              <label class="block text-slate-300 font-semibold mb-1">Your Full Name *</label>
+              <input required type="text" placeholder="John Doe" class="w-full px-3.5 py-2.5 rounded-xl bg-neutral-900 border border-white/10 text-white">
+            </div>
+            <div>
+              <label class="block text-slate-300 font-semibold mb-1">Your Phone *</label>
+              <input required type="tel" placeholder="(713) 000-0000" class="w-full px-3.5 py-2.5 rounded-xl bg-neutral-900 border border-white/10 text-white">
+            </div>
+          </div>
+
+          <div id="tradeEstimateBox" class="hidden p-4 rounded-xl bg-emerald-950/40 border border-emerald-500/40 text-center space-y-1">
+            <span class="text-xs text-emerald-400 uppercase font-semibold">Estimated Trade Value Range</span>
+            <div id="tradeRangeVal" class="font-heading font-black text-2xl text-white">$14,200 – $16,800</div>
+            <div class="text-[10px] text-slate-400">Offer valid at 9820 Bissonnet St showroom.</div>
+          </div>
+
+          <button type="submit" class="w-full py-3.5 rounded-xl font-bold text-xs bg-blue-600 hover:bg-blue-500 text-white shadow-lg shadow-blue-600/30 transition">
+            Calculate Cash Appraisal →
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4. SCHEDULE TEST DRIVE MODAL -->
+  <div id="testDriveModal" class="fixed inset-0 z-50 hidden modal-backdrop flex items-center justify-center p-4">
+    <div class="relative w-full max-w-lg glass-card rounded-2xl overflow-hidden border border-white/15 bg-neutral-950 p-6 sm:p-8 max-h-[90vh] overflow-y-auto custom-scrollbar">
+      <button onclick="closeModal('testDriveModal')" class="absolute top-4 right-4 text-slate-400 hover:text-white p-2 text-lg">✕</button>
+      <div class="text-left space-y-4">
+        <div>
+          <span class="px-2.5 py-1 rounded bg-red-600/20 text-red-400 border border-red-500/30 text-[10px] font-bold uppercase tracking-wider">VIP Experience</span>
+          <h3 class="font-heading font-black text-2xl text-white mt-2">Schedule A VIP Test Drive</h3>
+          <p class="text-xs text-slate-400">We will have the keys ready, AC running, and vehicle pulled up when you arrive.</p>
+        </div>
+
+        <form onsubmit="handleTestDriveSubmit(event)" class="space-y-4 text-xs">
+          <div>
+            <label class="block text-slate-300 font-semibold mb-1">Select Vehicle *</label>
+            <select id="testDriveSelect" class="w-full px-3.5 py-2.5 rounded-xl bg-neutral-900 border border-white/10 text-white">
+              <option>2022 Chevrolet Silverado 1500 RST ($38,495)</option>
+              <option>2021 Jeep Grand Cherokee Limited ($27,995)</option>
+              <option>2023 Toyota Camry SE ($24,895)</option>
+              <option>2020 Ford F-150 Lariat 4x4 ($34,995)</option>
+              <option>2021 BMW 330i M-Sport ($31,495)</option>
+              <option>2022 Honda CR-V EX-L ($26,800)</option>
+            </select>
+          </div>
+
+          <div class="grid grid-cols-2 gap-3">
+            <div>
+              <label class="block text-slate-300 font-semibold mb-1">Preferred Date *</label>
+              <input required type="date" class="w-full px-3.5 py-2.5 rounded-xl bg-neutral-900 border border-white/10 text-white">
+            </div>
+            <div>
+              <label class="block text-slate-300 font-semibold mb-1">Preferred Time *</label>
+              <select class="w-full px-3.5 py-2.5 rounded-xl bg-neutral-900 border border-white/10 text-white">
+                <option>10:00 AM</option>
+                <option>11:30 AM</option>
+                <option>1:00 PM</option>
+                <option>3:00 PM</option>
+                <option>5:00 PM</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-2 gap-3">
+            <div>
+              <label class="block text-slate-300 font-semibold mb-1">Your Name *</label>
+              <input required type="text" placeholder="John Doe" class="w-full px-3.5 py-2.5 rounded-xl bg-neutral-900 border border-white/10 text-white">
+            </div>
+            <div>
+              <label class="block text-slate-300 font-semibold mb-1">Phone Number *</label>
+              <input required type="tel" placeholder="(713) 000-0000" class="w-full px-3.5 py-2.5 rounded-xl bg-neutral-900 border border-white/10 text-white">
+            </div>
+          </div>
+
+          <button type="submit" class="w-full py-3.5 rounded-xl font-bold text-xs bg-red-600 hover:bg-red-500 text-white shadow-lg shadow-red-600/30 transition">
+            Confirm Test Drive Reservation
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5. CAR FINDER CONCIERGE MODAL -->
+  <div id="carFinderModal" class="fixed inset-0 z-50 hidden modal-backdrop flex items-center justify-center p-4">
+    <div class="relative w-full max-w-lg glass-card rounded-2xl overflow-hidden border border-white/15 bg-neutral-950 p-6 sm:p-8 max-h-[90vh] overflow-y-auto custom-scrollbar">
+      <button onclick="closeModal('carFinderModal')" class="absolute top-4 right-4 text-slate-400 hover:text-white p-2 text-lg">✕</button>
+      <div class="text-left space-y-4">
+        <div>
+          <span class="px-2.5 py-1 rounded bg-amber-600/20 text-amber-400 border border-amber-500/30 text-[10px] font-bold uppercase tracking-wider">Wholesale Sourcing</span>
+          <h3 class="font-heading font-black text-2xl text-white mt-2">Custom Car Finder</h3>
+          <p class="text-xs text-slate-400">Tell us what you want and our Houston wholesale team will locate it within 48 hours.</p>
+        </div>
+
+        <form onsubmit="handleCarFinderSubmit(event)" class="space-y-4 text-xs">
+          <div class="grid grid-cols-2 gap-3">
+            <div>
+              <label class="block text-slate-300 font-semibold mb-1">Year Range</label>
+              <input type="text" placeholder="e.g. 2020 - 2024" class="w-full px-3.5 py-2.5 rounded-xl bg-neutral-900 border border-white/10 text-white">
+            </div>
+            <div>
+              <label class="block text-slate-300 font-semibold mb-1">Target Budget</label>
+              <input type="text" placeholder="e.g. Under $30,000" class="w-full px-3.5 py-2.5 rounded-xl bg-neutral-900 border border-white/10 text-white">
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-slate-300 font-semibold mb-1">Make, Model, or Body Style *</label>
+            <input required type="text" placeholder="e.g. Ford F-150 Crew Cab 4x4 or Lexus RX 350" class="w-full px-3.5 py-2.5 rounded-xl bg-neutral-900 border border-white/10 text-white">
+          </div>
+
+          <div class="grid grid-cols-2 gap-3">
+            <div>
+              <label class="block text-slate-300 font-semibold mb-1">Your Name *</label>
+              <input required type="text" placeholder="Jane Smith" class="w-full px-3.5 py-2.5 rounded-xl bg-neutral-900 border border-white/10 text-white">
+            </div>
+            <div>
+              <label class="block text-slate-300 font-semibold mb-1">Phone Number *</label>
+              <input required type="tel" placeholder="(713) 000-0000" class="w-full px-3.5 py-2.5 rounded-xl bg-neutral-900 border border-white/10 text-white">
+            </div>
+          </div>
+
+          <button type="submit" class="w-full py-3.5 rounded-xl font-bold text-xs bg-red-600 hover:bg-red-500 text-white shadow-lg shadow-red-600/30 transition">
+            Start Vehicle Search
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= JAVASCRIPT LOGIC & STATE ================= -->
+  <script>
+    // Vehicle Dataset modeled directly after Auto Expo Houston's live inventory
+    const vehiclesData = [
+      {
+        id: 1,
+        year: 2022,
+        make: "Chevrolet",
+        model: "Silverado 1500 RST",
+        category: "Truck",
+        price: 38495,
+        originalPrice: 42995,
+        mileage: 42100,
+        mpg: "18 / 22",
+        engine: "5.3L V8 EcoTec3",
+        transmission: "10-Speed Automatic",
+        drive: "4WD",
+        features: ["Apple CarPlay", "Heated Seats", "Tow Hitch", "Remote Start", "Bed Liner"],
+        estMonthly: 449,
+        vin: "1GCRYDED7NZ192834",
+        color: "Shadow Metallic Gray",
+        badge: "Clean CARFAX®"
+      },
+      {
+        id: 2,
+        year: 2021,
+        make: "Jeep",
+        model: "Grand Cherokee Limited",
+        category: "SUV",
+        price: 27995,
+        originalPrice: 30500,
+        mileage: 51200,
+        mpg: "19 / 26",
+        engine: "3.6L V6 Pentastar",
+        transmission: "8-Speed Automatic",
+        drive: "4x4",
+        features: ["Leather Seats", "Sunroof", "Apple CarPlay", "Blind Spot Monitor", "Power Liftgate"],
+        estMonthly: 339,
+        vin: "1C4RJFBG8MC649102",
+        color: "Diamond Black Crystal",
+        badge: "One Owner"
+      },
+      {
+        id: 3,
+        year: 2023,
+        make: "Toyota",
+        model: "Camry SE",
+        category: "Sedan",
+        price: 24895,
+        originalPrice: 26900,
+        mileage: 28400,
+        mpg: "28 / 39",
+        engine: "2.5L 4-Cylinder",
+        transmission: "8-Speed Automatic",
+        drive: "FWD",
+        features: ["Toyota Safety Sense", "Apple CarPlay / Android Auto", "Sport Fabric SofTex", "Lane Keep Assist"],
+        estMonthly: 299,
+        vin: "4T1B11HK5PU920194",
+        color: "Celestial Silver",
+        badge: "Under 30k Miles"
+      },
+      {
+        id: 4,
+        year: 2020,
+        make: "Ford",
+        model: "F-150 Lariat 4x4",
+        category: "Truck",
+        price: 34995,
+        originalPrice: 38500,
+        mileage: 59300,
+        mpg: "17 / 23",
+        engine: "3.5L V6 EcoBoost",
+        transmission: "10-Speed Automatic",
+        drive: "4WD",
+        features: ["Leather Seats", "Cooled Seats", "Panoramic Moonroof", "B&O Sound System", "Navigation"],
+        estMonthly: 419,
+        vin: "1FTFW1E89LKD02914",
+        color: "Agate Black",
+        badge: "Clean CARFAX®"
+      },
+      {
+        id: 5,
+        year: 2021,
+        make: "BMW",
+        model: "330i M-Sport",
+        category: "Luxury",
+        price: 31495,
+        originalPrice: 34900,
+        mileage: 38200,
+        mpg: "26 / 36",
+        engine: "2.0L TwinPower Turbo",
+        transmission: "8-Speed Sport Auto",
+        drive: "RWD",
+        features: ["M-Sport Package", "Live Cockpit Pro", "Apple CarPlay", "Heated Steering", "Ambient Lighting"],
+        estMonthly: 379,
+        vin: "WBA5R1C56MFA90182",
+        color: "Alpine White",
+        badge: "Clean CARFAX®"
+      },
+      {
+        id: 6,
+        year: 2022,
+        make: "Honda",
+        model: "CR-V EX-L AWD",
+        category: "SUV",
+        price: 26800,
+        originalPrice: 29500,
+        mileage: 44100,
+        mpg: "27 / 32",
+        engine: "1.5L Turbocharged 4-Cyl",
+        transmission: "CVT Automatic",
+        drive: "AWD",
+        features: ["Leather Interior", "Power Moonroof", "Honda Sensing", "Apple CarPlay", "Power Liftgate"],
+        estMonthly: 325,
+        vin: "7FARW2H84NE019284",
+        color: "Sonic Gray Pearl",
+        badge: "Certified"
+      }
+    ];
+
+    let currentCategory = "all";
+    let searchQuery = "";
+
+    // Render vehicles in SRP
+    function renderVehicles() {
+      const grid = document.getElementById("carsGrid");
+      const noRes = document.getElementById("noResults");
+      const bodyFilterVal = document.getElementById("bodyFilter").value;
+      const priceFilterVal = document.getElementById("priceFilter").value;
+
+      const filtered = vehiclesData.filter(car => {
+        // Category check
+        if (currentCategory !== "all" && car.category.toLowerCase() !== currentCategory.toLowerCase()) {
+          return false;
+        }
+        // Body Style dropdown check
+        if (bodyFilterVal !== "all" && car.category !== bodyFilterVal) {
+          return false;
+        }
+        // Price dropdown check
+        if (priceFilterVal !== "all" && car.price > parseInt(priceFilterVal)) {
+          return false;
+        }
+        // Search query
+        if (searchQuery.trim() !== "") {
+          const text = `${car.year} ${car.make} ${car.model} ${car.category} ${car.engine} ${car.features.join(" ")}`.toLowerCase();
+          if (!text.includes(searchQuery.toLowerCase())) {
+            return false;
+          }
+        }
+        return true;
+      });
+
+      if (filtered.length === 0) {
+        grid.innerHTML = "";
+        noRes.classList.remove("hidden");
+        return;
+      }
+
+      noRes.classList.add("hidden");
+      grid.innerHTML = filtered.map(car => `
+        <div class="glass-card rounded-2xl overflow-hidden border border-white/10 group flex flex-col justify-between transition-all duration-300">
+          <div>
+            <!-- Card Image Container -->
+            <div class="relative w-full h-48 bg-gradient-to-br from-neutral-800 to-neutral-950 flex items-center justify-center overflow-hidden">
+              <!-- Visual Vehicle Silhouette -->
+              <svg class="w-60 h-36 text-slate-700 group-hover:scale-105 transition-transform duration-500" viewBox="0 0 350 160" fill="none">
+                <path d="M30 110 C 50 110, 70 70, 130 55 C 200 40, 260 50, 290 80 C 320 95, 330 110, 330 110 L 20 110 Z" fill="#1e293b"/>
+                <path d="M100 60 C 140 45, 230 45, 250 65 L 250 80 L 95 80 Z" fill="#38bdf8" fill-opacity="0.3"/>
+                <circle cx="80" cy="118" r="22" fill="#090d16" stroke="#ef4444" stroke-width="3"/>
+                <circle cx="260" cy="118" r="22" fill="#090d16" stroke="#ef4444" stroke-width="3"/>
+              </svg>
+
+              <!-- Top badges -->
+              <div class="absolute top-3 left-3 flex gap-1.5">
+                <span class="px-2.5 py-1 rounded text-[10px] font-bold uppercase tracking-wider bg-red-600/30 text-red-400 border border-red-500/40">
+                  ${car.badge}
+                </span>
+              </div>
+              <div class="absolute top-3 right-3">
+                <span class="px-2 py-0.5 rounded text-[10px] font-semibold bg-neutral-900/80 border border-white/10 text-slate-300">
+                  ${car.category}
+                </span>
+              </div>
+              <div class="absolute bottom-2 left-3">
+                <span class="text-[10px] font-mono text-slate-400">VIN: ...${car.vin.slice(-6)}</span>
+              </div>
+            </div>
+
+            <!-- Card Content -->
+            <div class="p-5">
+              <div class="flex items-start justify-between gap-2">
+                <div>
+                  <h3 class="font-heading font-bold text-lg text-white group-hover:text-red-400 transition">${car.year} ${car.make} ${car.model}</h3>
+                  <div class="text-xs text-slate-400 mt-0.5">${car.mileage.toLocaleString()} miles · ${car.transmission} · ${car.drive}</div>
+                </div>
+              </div>
+
+              <!-- Pricing Row -->
+              <div class="flex items-baseline justify-between mt-4 pb-4 border-b border-white/10">
+                <div>
+                  <span class="text-xs text-slate-400 line-through">$${car.originalPrice.toLocaleString()}</span>
+                  <div class="font-heading font-black text-2xl text-white tracking-tight">$${car.price.toLocaleString()}</div>
+                </div>
+                <div class="text-right">
+                  <span class="text-[10px] text-slate-400 uppercase">Estimated Loan</span>
+                  <div class="text-xs font-bold text-red-400">$${car.estMonthly}/mo*</div>
+                </div>
+              </div>
+
+              <!-- Spec Chips -->
+              <div class="flex flex-wrap gap-1.5 mt-3">
+                ${car.features.slice(0, 3).map(f => `
+                  <span class="px-2 py-0.5 rounded-md bg-white/5 border border-white/5 text-[10px] text-slate-300">${f}</span>
+                `).join('')}
+                ${car.features.length > 3 ? `<span class="px-1.5 py-0.5 rounded-md bg-white/5 text-[10px] text-slate-400">+${car.features.length - 3}</span>` : ''}
+              </div>
+            </div>
+          </div>
+
+          <!-- Card CTAs -->
+          <div class="p-5 pt-0 grid grid-cols-2 gap-2 mt-2">
+            <button onclick="quickViewCar(${car.id})" class="py-2.5 rounded-xl bg-white/5 hover:bg-white/10 text-white font-semibold text-xs border border-white/10 transition text-center">
+              View Details
+            </button>
+            <button onclick="openModal('testDriveModal')" class="py-2.5 rounded-xl bg-red-600 hover:bg-red-500 text-white font-bold text-xs shadow-md shadow-red-600/20 transition text-center">
+              Test Drive
+            </button>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    // Filter by Category
+    function filterCategory(cat) {
+      currentCategory = cat;
+      document.querySelectorAll(".cat-tab").forEach(tab => {
+        tab.classList.remove("active", "bg-red-600", "text-white");
+        tab.classList.add("text-slate-400");
+      });
+      const activeTab = document.getElementById("tab-" + cat);
+      if (activeTab) {
+        activeTab.classList.add("active", "bg-red-600", "text-white");
+        activeTab.classList.remove("text-slate-400");
+      }
+      renderVehicles();
+    }
+
+    function filterCars() {
+      renderVehicles();
+    }
+
+    function handleSearch() {
+      searchQuery = document.getElementById("searchInput").value;
+      renderVehicles();
+    }
+
+    function setSearchTerm(term) {
+      document.getElementById("searchInput").value = term;
+      searchQuery = term;
+      renderVehicles();
+    }
+
+    function resetFilters() {
+      document.getElementById("searchInput").value = "";
+      document.getElementById("bodyFilter").value = "all";
+      document.getElementById("priceFilter").value = "all";
+      searchQuery = "";
+      filterCategory("all");
+    }
+
+    // Calculator State & Math
+    let currentTermMonths = 60;
+    let currentAprPercent = 8.5;
+
+    function setTerm(months) {
+      currentTermMonths = months;
+      document.querySelectorAll(".term-btn").forEach(btn => {
+        btn.classList.remove("active", "bg-red-600", "text-white");
+        btn.classList.add("bg-neutral-800", "text-slate-300");
+      });
+      event.target.classList.add("active", "bg-red-600", "text-white");
+      event.target.classList.remove("bg-neutral-800", "text-slate-300");
+      updateCalculator();
+    }
+
+    function setCredit(apr) {
+      currentAprPercent = apr;
+      document.querySelectorAll(".credit-btn").forEach(btn => {
+        btn.classList.remove("active", "border-red-500/50");
+        btn.classList.add("border-white/5");
+      });
+      event.currentTarget.classList.add("active", "border-red-500/50");
+      event.currentTarget.classList.remove("border-white/5");
+      updateCalculator();
+    }
+
+    function updateCalculator() {
+      const price = parseFloat(document.getElementById("priceRange").value);
+      const down = parseFloat(document.getElementById("downRange").value);
+
+      document.getElementById("priceValDisplay").innerText = `$${price.toLocaleString()}`;
+      document.getElementById("downValDisplay").innerText = `$${down.toLocaleString()}`;
+
+      const principal = Math.max(0, price - down);
+      const monthlyRate = (currentAprPercent / 100) / 12;
+      
+      let monthly = 0;
+      if (principal > 0) {
+        if (monthlyRate === 0) {
+          monthly = principal / currentTermMonths;
+        } else {
+          monthly = (principal * monthlyRate * Math.pow(1 + monthlyRate, currentTermMonths)) / (Math.pow(1 + monthlyRate, currentTermMonths) - 1);
+        }
+      }
+
+      const totalInterest = Math.max(0, (monthly * currentTermMonths) - principal);
+
+      document.getElementById("monthlyPaymentResult").innerText = Math.round(monthly);
+      document.getElementById("calcPrincipal").innerText = `$${Math.round(principal).toLocaleString()}`;
+      document.getElementById("calcTerm").innerText = `${currentTermMonths} Months`;
+      document.getElementById("calcApr").innerText = `${currentAprPercent}%`;
+      document.getElementById("calcInterest").innerText = `$${Math.round(totalInterest).toLocaleString()}`;
+    }
+
+    // Modal Handlers
+    function openModal(id) {
+      const modal = document.getElementById(id);
+      if (modal) modal.classList.remove("hidden");
+    }
+
+    function closeModal(id) {
+      const modal = document.getElementById(id);
+      if (modal) modal.classList.add("hidden");
+    }
+
+    function toggleMobileMenu() {
+      const menu = document.getElementById("mobileMenu");
+      menu.classList.toggle("hidden");
+    }
+
+    // Quick View Vehicle
+    function quickViewCar(id) {
+      const car = vehiclesData.find(c => c.id === id);
+      if (!car) return;
+
+      const container = document.getElementById("modalCarContent");
+      container.innerHTML = `
+        <div class="space-y-6">
+          <div class="flex items-start justify-between">
+            <div>
+              <span class="px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider bg-red-600/30 text-red-400 border border-red-500/40">${car.badge}</span>
+              <h2 class="font-heading font-black text-2xl text-white mt-1">${car.year} ${car.make} ${car.model}</h2>
+              <div class="text-xs text-slate-400">Exterior: ${car.color} · Mileage: ${car.mileage.toLocaleString()} mi</div>
+            </div>
+            <div class="text-right">
+              <span class="text-xs text-slate-400 line-through">$${car.originalPrice.toLocaleString()}</span>
+              <div class="font-heading font-black text-3xl text-red-400">$${car.price.toLocaleString()}</div>
+            </div>
+          </div>
+
+          <!-- Feature Specs Grid -->
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 text-xs">
+            <div class="p-3 rounded-xl bg-neutral-900 border border-white/5">
+              <div class="text-[10px] text-slate-400">Engine</div>
+              <div class="font-bold text-white mt-0.5">${car.engine}</div>
+            </div>
+            <div class="p-3 rounded-xl bg-neutral-900 border border-white/5">
+              <div class="text-[10px] text-slate-400">Transmission</div>
+              <div class="font-bold text-white mt-0.5">${car.transmission}</div>
+            </div>
+            <div class="p-3 rounded-xl bg-neutral-900 border border-white/5">
+              <div class="text-[10px] text-slate-400">Drivetrain</div>
+              <div class="font-bold text-white mt-0.5">${car.drive}</div>
+            </div>
+            <div class="p-3 rounded-xl bg-neutral-900 border border-white/5">
+              <div class="text-[10px] text-slate-400">Fuel Economy</div>
+              <div class="font-bold text-white mt-0.5">${car.mpg} MPG</div>
+            </div>
+          </div>
+
+          <!-- Installed Features List -->
+          <div>
+            <h4 class="text-xs font-bold text-white uppercase tracking-wider mb-2">Key Equipment &amp; Features</h4>
+            <div class="flex flex-wrap gap-2">
+              ${car.features.map(f => `
+                <span class="px-3 py-1 rounded-lg bg-neutral-900 border border-white/10 text-xs text-slate-300">✓ ${f}</span>
+              `).join('')}
+              <span class="px-3 py-1 rounded-lg bg-neutral-900 border border-white/10 text-xs text-slate-300">✓ Backup Camera</span>
+              <span class="px-3 py-1 rounded-lg bg-neutral-900 border border-white/10 text-xs text-slate-300">✓ Keyless Entry</span>
+              <span class="px-3 py-1 rounded-lg bg-neutral-900 border border-white/10 text-xs text-slate-300">✓ 150-Pt Inspected</span>
+            </div>
+          </div>
+
+          <!-- VIN & Dealership Verification -->
+          <div class="p-4 rounded-xl bg-neutral-900 border border-white/5 flex flex-col sm:flex-row justify-between items-center gap-2 text-xs">
+            <span class="text-slate-400 font-mono">VIN: ${car.vin}</span>
+            <span class="text-emerald-400 font-semibold">✓ Verified Clean Title &amp; CARFAX</span>
+          </div>
+
+          <!-- CTAs -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
+            <button onclick="closeModal('quickViewModal'); openModal('financeModal')" class="py-3 rounded-xl bg-gradient-to-r from-red-600 to-rose-600 text-white font-bold text-xs shadow-lg shadow-red-600/30">
+              Get Pre-Approved for this Car ($${car.estMonthly}/mo)
+            </button>
+            <button onclick="closeModal('quickViewModal'); openModal('testDriveModal')" class="py-3 rounded-xl bg-neutral-800 hover:bg-neutral-700 text-white font-bold text-xs border border-white/10">
+              Schedule Showroom Test Drive
+            </button>
+          </div>
+        </div>
+      `;
+      openModal("quickViewModal");
+    }
+
+    // Trade In Calculation
+    function handleTradeSubmit(e) {
+      e.preventDefault();
+      const year = parseInt(document.getElementById("tradeYear").value) || 2018;
+      const miles = parseInt(document.getElementById("tradeMileage").value) || 60000;
+      
+      // Calculate realistic ballpark
+      let base = 20000 - ((2026 - year) * 1600) - (miles * 0.05);
+      if (base < 4000) base = 4500;
+      const low = Math.round(base * 0.9 / 100) * 100;
+      const high = Math.round(base * 1.15 / 100) * 100;
+
+      document.getElementById("tradeRangeVal").innerText = `$${low.toLocaleString()} – $${high.toLocaleString()}`;
+      document.getElementById("tradeEstimateBox").classList.remove("hidden");
+    }
+
+    // Form Toast handlers
+    function handleFinanceSubmit(e) {
+      e.preventDefault();
+      alert("🎉 Your in-house financing pre-qualification has been received! Rosario Gonzalez from our finance department will contact you within 15 minutes with your approved options.");
+      closeModal("financeModal");
+    }
+
+    function handleTestDriveSubmit(e) {
+      e.preventDefault();
+      alert("🚗 VIP Test Drive booked successfully! We will have the vehicle detailed and ready at 9820 Bissonnet St.");
+      closeModal("testDriveModal");
+    }
+
+    function handleCarFinderSubmit(e) {
+      e.preventDefault();
+      alert("🔍 Sourcing request submitted! Our wholesale procurement team is now searching for matching vehicles across Texas.");
+      closeModal("carFinderModal");
+    }
+
+    function handleContactSubmit(e) {
+      e.preventDefault();
+      alert("✅ Message sent to Auto Expo Houston! A sales specialist will be in touch shortly.");
+    }
+
+    // Live AI Chat Drawer
+    function toggleChat() {
+      const drawer = document.getElementById("aiChatDrawer");
+      drawer.classList.toggle("hidden");
+    }
+
+    function sendQuickPrompt(txt) {
+      appendUserMsg(txt);
+      respondAi(txt);
+    }
+
+    function handleChatKey(e) {
+      if (e.key === "Enter") sendChatMessage();
+    }
+
+    function sendChatMessage() {
+      const input = document.getElementById("chatInput");
+      const txt = input.value.trim();
+      if (!txt) return;
+      appendUserMsg(txt);
+      input.value = "";
+      respondAi(txt);
+    }
+
+    function appendUserMsg(txt) {
+      const log = document.getElementById("chatMessages");
+      log.innerHTML += `
+        <div class="flex justify-end">
+          <div class="bg-red-600 text-white p-3 rounded-xl rounded-tr-none text-xs max-w-[80%]">
+            ${txt}
+          </div>
+        </div>
+      `;
+      log.scrollTop = log.scrollHeight;
+    }
+
+    function respondAi(userText) {
+      const log = document.getElementById("chatMessages");
+      setTimeout(() => {
+        let reply = "Thanks for asking! We have over 65+ clean pre-owned vehicles in stock right now at 9820 Bissonnet St in Houston. Would you like to schedule a quick test drive or see our in-house financing options?";
+        const lower = userText.toLowerCase();
+
+        if (lower.includes("under") || lower.includes("25,000") || lower.includes("price") || lower.includes("cheap")) {
+          reply = "We have several great options under $25,000! For example, our 2023 Toyota Camry SE ($24,895) and Honda CR-V with monthly payments starting around $299/mo.";
+        } else if (lower.includes("finance") || lower.includes("credit") || lower.includes("in-house") || lower.includes("bad credit")) {
+          reply = "Our In-House Financing is 100% guaranteed approval! We don't rely on third-party bank denials. No credit check required to pre-qualify, and we accept ITIN, cash income, or first-time buyers.";
+        } else if (lower.includes("drive") || lower.includes("test") || lower.includes("visit") || lower.includes("hours")) {
+          reply = "We are open Monday–Friday 9AM–7PM and Saturday 9AM–6PM at 9820 Bissonnet St. Click the 'Schedule Test Drive' button and we'll have the keys ready for you!";
+        }
+
+        log.innerHTML += `
+          <div class="bg-neutral-900 p-3 rounded-xl rounded-tl-none border border-white/5 text-slate-300 text-xs">
+            ${reply}
+          </div>
+        `;
+        log.scrollTop = log.scrollHeight;
+      }, 600);
+    }
+
+    // Init
+    window.addEventListener("DOMContentLoaded", () => {
+      renderVehicles();
+      updateCalculator();
+    });
+  </script>
+</body>
+</html>
